@@ -1,0 +1,7 @@
+{
+  "name": "mercadim",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
