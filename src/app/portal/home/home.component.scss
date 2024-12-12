@@ -1,0 +1,36 @@
+.content {
+    padding: 16px;
+    text-align: left;
+  }
+  
+h1 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #666;
+}
+
+.offers {
+  font-size: 14px;
+  margin: 16px 0;
+  color: #888;
+}
+
+.offer-card {
+  border: 1px solid #ffcccc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.offer-card ion-card-content {
+  padding: 12px;
+}
+
+.icon {
+  font-size: 32px;
+  color: #ff0000;
+}

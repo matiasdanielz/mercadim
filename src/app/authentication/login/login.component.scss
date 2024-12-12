@@ -1,0 +1,48 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Centraliza no início do espaço */
+    height: 100%; /* Faz o contêiner ocupar a altura total */
+    padding-top: 60px; /* Empurra o conteúdo para baixo */
+    margin-inline: 30px;
+  }
+  
+  .store-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .spaced-item {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .login-button {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .register-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .register-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .register-container p {
+    font-size: 14px;
+    margin-top: 5px;
+  }

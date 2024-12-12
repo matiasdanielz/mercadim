@@ -1,0 +1,60 @@
+ <div
+  class="content">
+  <!-- Mensagem Automatica -->
+  <h1>
+    Olá João!
+  </h1>
+  <h2>
+    o que você procura hoje?
+  </h2>
+  <!-- Serch filter -->
+  <ion-searchbar 
+    placeholder="Search"
+    (ionChange)="handleSearch($event)">
+  </ion-searchbar>
+  <p 
+    class="offers">
+    137 ofertas hoje!
+  </p>
+  <!-- list of items -->
+  <ion-card 
+    class="offer-card" 
+    *ngFor="let offer of offers">
+    <ion-card-content>
+      <ion-row>
+        <ion-col 
+          size="2">
+          <ion-icon 
+            name="reload-circle-outline" 
+            class="icon">
+          </ion-icon>
+        </ion-col>
+        <ion-col>
+          <p>
+            <strong>
+              SALDO
+            </strong>
+          </p>
+          <p>
+            <strong>
+              LOJA:
+            </strong> 
+            Açougue do Carlão
+          </p>
+          <p>
+            <strong>
+              PRODUTO:
+            </strong> 
+            Guisado de Segunda
+          </p>
+          <p>
+            <strong>
+              QUANTIDADE:
+            </strong>
+             50 KG
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</div>

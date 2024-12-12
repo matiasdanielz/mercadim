@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div 
+    class="login-container">
+    <!-- Ícone no topo -->
+    <ion-icon 
+      name="storefront-outline" 
+      class="store-icon">
+    </ion-icon>
+
+    <!-- Título Login -->
+    <h1>
+      Login
+    </h1>
+
+    <!-- Campo de Usuário -->
+    <ion-item 
+      class="spaced-item">
+      <ion-input 
+        label="Usuario" 
+        label-placement="floating" 
+        fill="outline" 
+        placeholder="Enter text">
+      </ion-input>
+    </ion-item>
+
+    <!-- Campo de Senha -->
+    <ion-item 
+      class="spaced-item">
+      <ion-input 
+        type="password" 
+        fill="outline" 
+        label="Password" 
+        value="NeverGonnaGiveYouUp">
+        <ion-input-password-toggle 
+          slot="end">
+        </ion-input-password-toggle>
+      </ion-input>
+    </ion-item>
+
+      <!-- Botão login -->
+      <ion-button 
+      expand="block" 
+      class="login-button"
+      (click)="DoLogin()">
+      Login
+    </ion-button>
+
+    <!-- Link de Cadastro -->
+    <div 
+      class="register-container">
+      <ion-text 
+        color="warning">
+        <h2>
+          Cadastre-se
+        </h2>
+      </ion-text>
+      <p>
+        utilizando sua conta de e-mail
+      </p>
+    </div>
+  </div>
+</ion-content>
